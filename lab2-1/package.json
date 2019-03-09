@@ -1,0 +1,35 @@
+{
+  "name": "ngx-snake",
+  "version": "1.0.0",
+  "license": "MIT",
+  "angular-cli": {},
+  "scripts": {
+    "start": "ng serve",
+    "lint": "tslint \"src/**/*.ts\"",
+    "gh-deploy": "ng build --prod && npx angular-cli-ghpages"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/compiler": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/platform-browser": "^7.0.0",
+    "@angular/platform-browser-dynamic": "^7.0.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.5.1",
+    "font-awesome": "^4.7.0",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.13.4",
+    "@angular/cli": "^7.0.0",
+    "@angular/compiler-cli": "^7.2.8",
+    "@types/node": "^10.0.51",
+    "angular-cli-ghpages": "^0.5.3",
+    "codelyzer": "^4.5.0",
+    "ts-node": "^4.0.0",
+    "tslint": "^5.8.0",
+    "typescript": "~3.1.1"
+  }
+}
